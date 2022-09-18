@@ -1,0 +1,53 @@
+#include <iostream>
+#include <cstdio>
+#include <iomanip>
+#include <algorithm>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    string st1, st2;
+    st1 = "Hello";
+    st2 = "G";
+
+    cout << st1 + st2 << endl; // only shows joined output s1=s1+s2 is also valid to append
+
+    st1.append(st2); // joins the two strings
+    cout << st1 << endl;
+
+    st1.clear(); // Clears the string value s1.empty() returnes posive value to tell empty
+    cout << st1 << endl;
+
+    string str3 = "guru";
+    string str4 = "guru";
+
+    cout << str3.compare(str4) << endl; // gives 0 if eaqual else positive value
+
+    string str6 = "Heisaloyalman";
+
+    str6.erase(5, 5); //(position from , number of digits)
+    cout << str6 << endl;
+
+    cout << str6.find("boy") << endl; // Tells position where is it present
+
+    str6.insert(2, " Google "); // insetrs string in the position given
+    cout << str6 << endl;
+
+    cout << str6.length() << endl; // Tells length of a string
+
+    string s = str6.substr(3, 6); // makes a substring
+    cout << s << endl;
+
+    string snum = "67";
+    int n = stoi(snum); // convers num string to int value
+    cout << n + 2 << endl;
+
+    cout << to_string(n) << endl; // convers int to string
+
+    string alpha = "nbdahsghbfhdasfdsbsbavdgastgd";
+    sort(alpha.begin(), alpha.end()); // sorts the given string
+    cout << alpha << endl;
+
+    return 0;
+}
