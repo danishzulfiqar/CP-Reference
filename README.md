@@ -1,4 +1,4 @@
-# Use My Templete
+# My Templete
 
 ```
 #include <bits/stdc++.h>
