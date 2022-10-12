@@ -1,4 +1,4 @@
-# CP-Reference 
+# Competetive Programming in C++
 
 # Use My Templete
 
